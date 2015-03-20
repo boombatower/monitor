@@ -19,6 +19,9 @@
 			elseif ($total_files < $cores + 7 && $total_files + 7 > 7) {
 				array_unshift($chunks, "Cooling Down");
 			}
+			elseif ($total_files < 7 && $total_files > 0) {
+				array_unshift($chunks, "Communicating with RD");
+			}
 			else {
 				array_unshift($chunks, "Idle");
 			}
