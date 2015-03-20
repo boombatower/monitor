@@ -18,7 +18,7 @@
 				$gs02 = getData('10.10.0.12');
 				$gs03 = getData('10.10.0.13');
 			?>
-			<td>GS01 - <?php echo $gs01[1]; ?></td><td>GS02 - <?php echo $gs01[1]; ?></td><td>GS03 - <?php echo $gs01[1]; ?></td>
+			<td>GS01 - <?php echo $gs01[1]; ?></td><td>GS02 - <?php echo $gs02[1]; ?></td><td>GS03 - <?php echo $gs03[1]; ?></td>
 		</tr>
 		<tr>
 			<td valign="top"><pre>
